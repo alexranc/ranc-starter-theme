@@ -8,6 +8,7 @@
 - Added eslint-config-airbnb-base
 - Removed dummy custom post type and taxonomy
 - Removed un-used templates, shortcodes, and actions
+- Removed jQuery
 
 ## Features:
 

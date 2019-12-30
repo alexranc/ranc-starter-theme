@@ -68,9 +68,7 @@ module.exports = merge(
      *
      * @type {Object}
      */
-    externals: {
-      jquery: 'jQuery'
-    },
+    externals: {},
 
     /**
      * List of custom modules resolving.
