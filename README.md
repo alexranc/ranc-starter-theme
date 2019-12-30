@@ -3,13 +3,13 @@
 > Forked from https://labs.tonik.pl/theme/
 
 ## Changes:
-- Removed vue-eslint-plugin
+- Eslint now extends from eslint-config-airbnb-base
 - Added prettier
-- Added eslint-config-airbnb-base
+- Theme template actions are now automatically loaded from 'app/Support/Templates' directory (each action should be its own file).
+- Removed vue-eslint-plugin
 - Removed dummy custom post type and taxonomy
 - Removed un-used templates, shortcodes, and actions
 - Removed jQuery
-- Theme template actions are now automatically loaded from 'app/Support/Templates' directory (each action should be its own file).
 
 ## Features:
 
@@ -33,6 +33,18 @@ Make sure you have all these dependences installed before moving on:
 - PHP >= 7.0
 - [Composer](https://getcomposer.org)
 - [Node.js](https://nodejs.org)
+
+## Quick Start
+
+1) Install required npm dependences for building a theme.
+```bash
+$ npm install
+```
+
+2) Build a theme for development.
+```bash
+$ npm run dev
+```
 
 ## Documentation
 
