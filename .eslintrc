@@ -1,7 +1,5 @@
 {
-  "extends": [
-    "plugin:vue/essential"
-  ],
+  "extends": "airbnb-base",
   "rules": {
     "indent": ["error", 2]
   },
