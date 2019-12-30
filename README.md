@@ -9,6 +9,7 @@
 - Removed dummy custom post type and taxonomy
 - Removed un-used templates, shortcodes, and actions
 - Removed jQuery
+- Theme template actions are now automatically loaded from 'app/Support/Templates' directory (each action should be its own file).
 
 ## Features:
 
