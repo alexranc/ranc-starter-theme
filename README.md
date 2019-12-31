@@ -3,7 +3,9 @@
 > Forked from https://labs.tonik.pl/theme/
 
 ## Changes:
-- Eslint now extends from eslint-config-airbnb-base
+- New eslint config extending from eslint-config-airbnb-base
+- New stylint config extending from stylelint-config-recommended
+- Added csscomb config (can be used via VS Code extension)
 - Added prettier
 - Theme template actions are now automatically loaded from 'app/Support/Templates' directory (each action should be its own file).
 - Removed vue-eslint-plugin
