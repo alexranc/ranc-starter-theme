@@ -36,7 +36,12 @@ Make sure you have all these dependences installed before moving on:
 
 ## Installation
 
-Install required npm dependences for building a theme.
+Install composer dependencies.
+```bash
+$ composer install
+```
+
+Install node dependencies.
 ```bash
 $ npm install
 ```
