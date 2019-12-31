@@ -34,16 +34,34 @@ Make sure you have all these dependences installed before moving on:
 - [Composer](https://getcomposer.org)
 - [Node.js](https://nodejs.org)
 
-## Quick Start
+## Installation
 
-1) Install required npm dependences for building a theme.
+Install required npm dependences for building a theme.
 ```bash
 $ npm install
 ```
+## Building
 
-2) Build a theme for development.
+Compiles unminified and unoptimized theme assets with source maps.
 ```bash
 $ npm run dev
+```
+
+Builds assets for development, runs watcher (recompiles on change)
+```bash
+$ npm run watch
+```
+
+Compiles minified and optimized theme assets without source maps.
+```bash
+$ npm run prod
+```
+
+## Prettier
+
+Runs all project .js files through prettier.
+```bash
+$ npm run prettier
 ```
 
 ## Documentation
