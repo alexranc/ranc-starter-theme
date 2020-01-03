@@ -27,7 +27,7 @@
     "selector-list-comma-newline-after": "always",
     "selector-pseudo-element-colon-notation": "double",
     "no-eol-whitespace": true,
-    "indentation": 4,
+    "indentation": 2,
     "rule-empty-line-before": ["always", {
       "except": ["first-nested"],
       ignore: ["after-comment"]

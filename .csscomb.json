@@ -2,7 +2,7 @@
     "remove-empty-rulesets": true,
     "always-semicolon": true,
     "color-case": "lower",
-    "block-indent": 4,
+    "block-indent": 2,
     "color-shorthand": true,
     "element-case": "lower",
     "eof-newline": true,
