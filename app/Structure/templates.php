@@ -19,11 +19,11 @@ use function Tonik\Theme\App\theme;
  * Load theme template actions files from their own directory.
  *
  * Instead of having one large file for all render actions, we break them apart
- * into their own individual file and place them in the 'app/Support/Templates'
+ * into their own individual file and place them in the 'app/Structure/template-actions'
  * directory. All files in this directory will be included below.
  */
 $app_directory = theme('config')['paths']['directory'] . '/' .theme('config')['directories']['app'];
-$actions_directory = $app_directory . '/Structure/actions/';
+$actions_directory = $app_directory . '/Structure/template-actions/';
 
 foreach (glob($actions_directory  . '/*.php') as $filename)
 {
