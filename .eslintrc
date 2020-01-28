@@ -3,10 +3,14 @@
   "rules": {
     "indent": ["error", 2],
     "import/no-extraneous-dependencies": 0,
-    "comma-dangle": 0
+    "comma-dangle": 0,
+    "max-len": 0
   },
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module"
+  },
+  "env": {
+    "browser": true
   }
 }
