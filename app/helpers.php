@@ -81,3 +81,28 @@ function asset_path($file)
 {
     return asset($file)->getUri();
 }
+
+/**
+ * Check that a template has the required props.
+ *
+ * @param  string $file Relative file path to the asset file.
+ *
+ * @return string
+ */
+function check_required_props()
+{
+    $props = func_get_args();
+    $props_are_valid = true;
+
+    foreach ($props as $prop) {
+        if (!isset($prop)) {
+            $props_are_valid = false;
+        }
+    }
+
+    if (!$props_are_valid) {
+        $file = debug_backtrace()[0]['file'];
+        $styles = 'color: red; font-weight: 700; text-align: center; padding: 50px 0;';
+        exit('<p style="' . $styles . '">Required props where not passed to the following template:<br>' . $file . '</p>');
+    }
+}
