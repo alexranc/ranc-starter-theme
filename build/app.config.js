@@ -88,9 +88,7 @@ module.exports = merge(
      */
     settings: {
       sourceMaps: env('SOURCEMAPS', true),
-      styleLint: {
-        context: 'resources/assets'
-      },
+      styleLint: false,
       autoprefixer: {
         browsers: ['last 2 versions', '> 1%']
       },
@@ -100,6 +98,7 @@ module.exports = merge(
         proxy: env('BROWSERSYNC_PROXY', 'http://localhost:8080/'),
         open: env('BROWSERSYNC_OPEN', false),
         reloadDelay: env('BROWSERSYNC_DELAY', 500),
+        notify: false,
         files: [
           '*.php',
           'app/**/*.php',
